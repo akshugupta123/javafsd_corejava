@@ -134,7 +134,10 @@ public class CameraRentalApplication {
     }
 
     private static void displayLoginPage() {
-        System.out.println("========== Camera Rental Application ==========");
+    	
+    	System.out.println("+--------------------------------------+");
+        System.out.println("| WELCOME TO CAMERA RENTAL APPLICATION |");
+        System.out.println("+--------------------------------------+");
         System.out.println("1. Login");
         System.out.println("2. Quit");
         System.out.print("Enter your choice: ");
