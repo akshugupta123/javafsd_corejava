@@ -1,0 +1,2 @@
+module praticeproject2 {
+}
