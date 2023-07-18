@@ -1,0 +1,12 @@
+<div class="div1">
+    <h1>ngClass  and ngIf</h1>
+    <hr />
+    <h1>Secured Marks : {{marks}}</h1>
+    <div *ngIf="res">
+        <h2 [ngClass]="cssclass">Congratulations</h2>
+    </div>
+
+    <div *ngIf="!res">
+        <h2 [ngClass]="cssclass">Better Luck Next Time</h2>
+    </div>
+</div>
