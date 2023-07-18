@@ -1,0 +1,64 @@
+{
+  "employees": [
+    {
+      "empno": 1001,
+      "ename": "Ravi Kiran",
+      "job": "Developer",
+      "sal": 9000
+    },
+    {
+      "empno": 1002,
+      "ename": "Ramya",
+      "job": "Developer",
+      "sal": 10000
+    },
+    {
+      "empno": 1003,
+      "ename": "Sahasra",
+      "job": "Tester",
+      "sal": 9000
+    },
+    {
+      "empno": 1004,
+      "ename": "Rajesh",
+      "job": "Developer",
+      "sal": 12000
+    },
+    {
+      "empno": 1005,
+      "ename": "Satyam",
+      "job": "Developer",
+      "sal": 16000
+    },
+    {
+      "empno": 1006,
+      "ename": "Venugopal",
+      "job": "Trainer",
+      "sal": 20000
+    },
+    {
+      "empno": 1007,
+      "ename": "Priya Bhavani",
+      "job": "Developer",
+      "sal": 10000
+    },
+    {
+      "empno": 1008,
+      "ename": "Mahesh",
+      "job": "HR-Manager",
+      "sal": 19000
+    },
+    {
+      "empno": 1009,
+      "ename": "Srinivas",
+      "job": "Developer",
+      "sal": 12000
+    },
+    {
+      "empno": 1010,
+      "ename": "Lakshmi",
+      "job": "CEO",
+      "sal": 90000
+    }
+  ]
+}
