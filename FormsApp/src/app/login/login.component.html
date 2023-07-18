@@ -1,0 +1,33 @@
+<div style="text-align: center;">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4>Login Form(Template Driven Form)</h4>
+                </div>
+                <div class="card-body">
+                    <form #loginform="ngForm" (ngSubmit)="LoginCheck(loginform)">
+                        <input type="text" [(ngModel)]="username" class="form-control" name="uname" 
+                        required="required" placeholder="Username"  #uctrl="ngModel" />
+                       
+                        <span class="errormsginfo"  *ngIf="uctrl.touched && uctrl.invalid">
+                            Username can't be blank
+                        </span>
+                        <br />
+                        <input type="password" class="form-control" [(ngModel)]="password" name="pswd"
+                        required="required" placeholder="Password" #pctrl="ngModel" />
+                        
+                        <span class="errormsginfo"  *ngIf="pctrl.touched && pctrl.invalid">
+                            Password can't be blank
+                        </span>
+                        <br /><br />
+                        <input type="submit"  value="Login Here" class="btn btn-primary" />
+                        <br /><div [innerHTML]="msg" style="color:red"></div>
+                    </form>        
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
