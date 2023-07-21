@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="browserName" value="1"/>
+	<parameter name="sleeptime" value="3000"/>
+	<parameter name="url" value="http://www.google.com/"/>
+  <test name="DemoTest1" enabled="true">
+  <parameter name="browserName" value="2"/>
+  <classes>
+  	<class name="com.testng.demos.ExampleTestCases">
+  			<methods>
+  				<include name="TestGoogle"/>
+  			</methods>
+  	</class>
+  	<class name="com.testng.demos.OrangeHRMTests">
+  		<methods>
+  			<include name="LaunchApp" />
+  		</methods>
+  	</class>
+  </classes>
+   </test>
+    
+  <test name="DemoTest2" enabled="false">
+  <parameter name="browserName" value="3"/>
+  <classes>
+  	<class name="com.testng.demos.ExampleTestCases">
+  			<methods>
+  				<include name="TestFaceBook"/>
+  			</methods>
+  	</class>
+  	<class name="com.testng.demos.OrangeHRMTests">
+  		<methods>
+  			<include name="ViewMyInfo" />
+  		</methods>
+  	</class>
+  </classes>
+  </test> 
+</suite>
