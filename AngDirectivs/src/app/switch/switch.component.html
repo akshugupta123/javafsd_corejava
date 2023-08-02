@@ -1,0 +1,40 @@
+<div class="div1">
+    <h1>ngSwitch Case</h1>
+    <select  [(ngModel)]="country">
+        <option>India</option>
+        <option>USA</option>
+        <option>UK</option>
+    </select>
+
+    <div [ngSwitch]="country">
+        <h2 *ngSwitchCase="'India'">
+            Visit India for An Education
+        </h2>
+        <h2 *ngSwitchCase="'USA'">
+            Visit USA for An Education
+        </h2>
+        <h2 *ngSwitchCase="'UK'">
+            Visit UK for An Education
+        </h2>
+        <h2 *ngSwitchDefault>
+            Please select an option
+        </h2>
+    </div>
+</div>
+
+<div >
+    <h1>ngFor</h1>
+    <ol type="1">
+        <li *ngFor="let c of cities">
+            {{c}}
+        </li>
+    </ol>
+
+    <hr />
+
+    <table width="100%" border="1">
+        <tr *ngFor="let c of cities">
+            <td>{{c}}</td>
+        </tr>
+    </table>
+</div>

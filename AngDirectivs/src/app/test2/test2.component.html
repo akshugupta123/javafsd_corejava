@@ -1,0 +1,13 @@
+<div class="div1">
+    <h1>ngIf - Else</h1>
+    <hr />
+    <h1>Secured Marks : {{marks}}</h1>
+    <div *ngIf="res; then  temp_respass; else temp_resfail"></div>
+
+    <ng-template #temp_respass>
+        <div  [ngClass]="cssclass">Congratulations</div>
+    </ng-template>
+    <ng-template #temp_resfail>
+        <div  [ngClass]="cssclass">Better Luck Next Time</div>
+    </ng-template>
+</div>

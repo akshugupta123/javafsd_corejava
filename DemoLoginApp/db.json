@@ -1,0 +1,111 @@
+{
+  "userinfo": [
+    {
+      "id": "sahasra",
+      "uname": "sahasra",
+      "password": "s@123"
+    },
+    {
+      "id": "venu",
+      "uname": "venugopal",
+      "password": "v@123"
+    },
+    {
+      "id": "renuka",
+      "uname": "renuka",
+      "password": "r@123"
+    },
+    {
+      "id": "pavan",
+      "uname": "pavankumar",
+      "password": "p@123"
+    },
+    {
+      "id": "murali",
+      "uname": "muralidhar",
+      "password": "m@123"
+    },
+    {
+      "id": "ramadevi",
+      "uname": "rama devi",
+      "password": "r@123"
+    },
+    {
+      "id": "mahesh",
+      "uname": "mahesh kumar",
+      "password": "m1234"
+    },
+    {
+      "id": "Baskar",
+      "uname": "Baskar",
+      "password": "b12345"
+    },
+    {
+      "id": "manas",
+      "uname": "Manas Kumar",
+      "password": "m@123"
+    }
+  ],
+  "employees": [
+    {
+      "id": 101,
+      "ename": "Murali",
+      "job": "Manager",
+      "sal": 12000
+    },
+    {
+      "id": 102,
+      "ename": "Kiran",
+      "job": "Manager",
+      "sal": 11000
+    },
+    {
+      "id": 103,
+      "ename": "Pavan Kumar",
+      "job": "Manager",
+      "sal": 10000
+    },
+    {
+      "id": 104,
+      "ename": "Naresh",
+      "job": "Developer",
+      "sal": 13000
+    },
+    {
+      "id": 105,
+      "ename": "Avinash",
+      "job": "Tester",
+      "sal": 14000
+    },
+    {
+      "id": 106,
+      "ename": "Renuka",
+      "job": "Tester",
+      "sal": 11000
+    },
+    {
+      "id": 107,
+      "ename": "Sravani",
+      "job": "Manager",
+      "sal": 12000
+    },
+    {
+      "id": 108,
+      "ename": "Baskar Rao",
+      "job": "Manager",
+      "sal": 12000
+    },
+    {
+      "id": 109,
+      "ename": "Cutee",
+      "job": "HR-Manager",
+      "sal": 15000
+    },
+    {
+      "id": 110,
+      "ename": "Priya Bhavani",
+      "job": "HR-Manager",
+      "sal": 15000
+    }
+  ]
+}

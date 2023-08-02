@@ -1,0 +1,32 @@
+<div class="row">
+    <div class="col-md-3"> </div>
+    <div class="col-md-6"> 
+        <div class="card">
+            <div class="card-header">
+                <p>User Register</p>
+            </div>
+            <div class="card-body">
+                <form [formGroup] = "registerform" (ngSubmit)="procedRegister()">
+                Person Name : 
+                <input type="text"  formControlName="uname" class="form-control" />
+                <br />
+                User Name
+                <input type="text"  formControlName="id" class="form-control" />
+                <br />
+                Password
+                <input type="text"  formControlName="password" class="form-control" />
+                <div>
+                    <input type="submit"  value="Register"  class="btn btn-success" />
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a routerLink="/login">Login Here</a>
+                </div>
+                <div>
+                    <p>{{msg}}</p>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3"> </div>
+</div>
